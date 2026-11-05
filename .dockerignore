@@ -1,0 +1,17 @@
+node_modules
+.next
+dist
+.git
+.openai
+.sites-runtime
+.vinext
+.wrangler
+.env
+.env.*
+!.env.example
+work
+outputs
+tests
+*.tsbuildinfo
+
+.next-container

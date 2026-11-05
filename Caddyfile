@@ -1,0 +1,12 @@
+GreyHatGoods.com {
+    encode zstd gzip
+    reverse_proxy shop:3000
+    header {
+        X-Content-Type-Options nosniff
+        Referrer-Policy strict-origin-when-cross-origin
+        X-Frame-Options DENY
+    }
+}
+www.GreyHatGoods.com {
+    redir https://GreyHatGoods.com{uri} permanent
+}

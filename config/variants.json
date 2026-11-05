@@ -1,0 +1,188 @@
+{
+  "ghost-protocol": {
+    "S": {
+      "sku": "",
+      "attributes": {},
+      "assets": [
+        {
+          "printArea": "front",
+          "url": ""
+        }
+      ]
+    },
+    "M": {
+      "sku": "",
+      "attributes": {},
+      "assets": [
+        {
+          "printArea": "front",
+          "url": ""
+        }
+      ]
+    },
+    "L": {
+      "sku": "",
+      "attributes": {},
+      "assets": [
+        {
+          "printArea": "front",
+          "url": ""
+        }
+      ]
+    },
+    "XL": {
+      "sku": "",
+      "attributes": {},
+      "assets": [
+        {
+          "printArea": "front",
+          "url": ""
+        }
+      ]
+    },
+    "2XL": {
+      "sku": "",
+      "attributes": {},
+      "assets": [
+        {
+          "printArea": "front",
+          "url": ""
+        }
+      ]
+    },
+    "3XL": {
+      "sku": "",
+      "attributes": {},
+      "assets": [
+        {
+          "printArea": "front",
+          "url": ""
+        }
+      ]
+    }
+  },
+  "root-access": {
+    "S": {
+      "sku": "",
+      "attributes": {},
+      "assets": [
+        {
+          "printArea": "front",
+          "url": ""
+        }
+      ]
+    },
+    "M": {
+      "sku": "",
+      "attributes": {},
+      "assets": [
+        {
+          "printArea": "front",
+          "url": ""
+        }
+      ]
+    },
+    "L": {
+      "sku": "",
+      "attributes": {},
+      "assets": [
+        {
+          "printArea": "front",
+          "url": ""
+        }
+      ]
+    },
+    "XL": {
+      "sku": "",
+      "attributes": {},
+      "assets": [
+        {
+          "printArea": "front",
+          "url": ""
+        }
+      ]
+    },
+    "2XL": {
+      "sku": "",
+      "attributes": {},
+      "assets": [
+        {
+          "printArea": "front",
+          "url": ""
+        }
+      ]
+    },
+    "3XL": {
+      "sku": "",
+      "attributes": {},
+      "assets": [
+        {
+          "printArea": "front",
+          "url": ""
+        }
+      ]
+    }
+  },
+  "inner-circle": {
+    "S": {
+      "sku": "",
+      "attributes": {},
+      "assets": [
+        {
+          "printArea": "front",
+          "url": ""
+        }
+      ]
+    },
+    "M": {
+      "sku": "",
+      "attributes": {},
+      "assets": [
+        {
+          "printArea": "front",
+          "url": ""
+        }
+      ]
+    },
+    "L": {
+      "sku": "",
+      "attributes": {},
+      "assets": [
+        {
+          "printArea": "front",
+          "url": ""
+        }
+      ]
+    },
+    "XL": {
+      "sku": "",
+      "attributes": {},
+      "assets": [
+        {
+          "printArea": "front",
+          "url": ""
+        }
+      ]
+    },
+    "2XL": {
+      "sku": "",
+      "attributes": {},
+      "assets": [
+        {
+          "printArea": "front",
+          "url": ""
+        }
+      ]
+    },
+    "3XL": {
+      "sku": "",
+      "attributes": {},
+      "assets": [
+        {
+          "printArea": "front",
+          "url": ""
+        }
+      ]
+    }
+  }
+}

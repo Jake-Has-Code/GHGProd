@@ -1,0 +1,38 @@
+services:
+  shop:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      DOCKER_RUNTIME: 'true'
+      ORDER_STORE_DIR: /data/orders
+    ports:
+      - '127.0.0.1:3000:3000'
+    volumes:
+      - orders:/data/orders
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+  caddy:
+    image: caddy:2-alpine
+    profiles: [production]
+    restart: unless-stopped
+    ports:
+      - '80:80'
+      - '443:443'
+      - '443:443/udp'
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      shop:
+        condition: service_healthy
+volumes:
+  orders:
+  caddy_data:
+  caddy_config:
