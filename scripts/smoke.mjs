@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 const origin=process.argv[2]||'http://127.0.0.1:3002';
 const pages=['/','/shop','/shop/ghost-protocol','/shop/root-access','/shop/inner-circle','/blog','/blog/a-homelab-is-a-mindset','/blog/security-is-a-habit','/blog/small-tools-better-days','/about','/shipping','/privacy','/cart','/order'];
-for(const path of pages){const response=await fetch(origin+path);assert.equal(response.status,200,path);const body=await response.text();assert.match(body,/Grey Hat Goods/);assert.doesNotMatch(body,/Starter Project/);}
+for(const path of pages){const response=await fetch(origin+path);assert.equal(response.status,200,path);const body=await response.text();assert.match(body,/Grey Hat Goods/);assert.doesNotMatch(body,/Starter Project|Prodigi/i);if(['/about','/privacy','/shipping','/shop/ghost-protocol'].includes(path))assert.match(body,/Printify/);}
 let response=await fetch(origin+'/brand/01.svg');assert.equal(response.status,200);assert.match(await response.text(),/<svg/);
 response=await fetch(origin+'/api/health');assert.equal((await response.json()).status,'ok');
 response=await fetch(origin+'/api/checkout-status');assert.equal((await response.json()).enabled,false);

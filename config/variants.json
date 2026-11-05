@@ -1,188 +1,80 @@
 {
   "ghost-protocol": {
     "S": {
-      "sku": "",
-      "attributes": {},
-      "assets": [
-        {
-          "printArea": "front",
-          "url": ""
-        }
-      ]
+      "product_id": "",
+      "variant_id": null
     },
     "M": {
-      "sku": "",
-      "attributes": {},
-      "assets": [
-        {
-          "printArea": "front",
-          "url": ""
-        }
-      ]
+      "product_id": "",
+      "variant_id": null
     },
     "L": {
-      "sku": "",
-      "attributes": {},
-      "assets": [
-        {
-          "printArea": "front",
-          "url": ""
-        }
-      ]
+      "product_id": "",
+      "variant_id": null
     },
     "XL": {
-      "sku": "",
-      "attributes": {},
-      "assets": [
-        {
-          "printArea": "front",
-          "url": ""
-        }
-      ]
+      "product_id": "",
+      "variant_id": null
     },
     "2XL": {
-      "sku": "",
-      "attributes": {},
-      "assets": [
-        {
-          "printArea": "front",
-          "url": ""
-        }
-      ]
+      "product_id": "",
+      "variant_id": null
     },
     "3XL": {
-      "sku": "",
-      "attributes": {},
-      "assets": [
-        {
-          "printArea": "front",
-          "url": ""
-        }
-      ]
+      "product_id": "",
+      "variant_id": null
     }
   },
   "root-access": {
     "S": {
-      "sku": "",
-      "attributes": {},
-      "assets": [
-        {
-          "printArea": "front",
-          "url": ""
-        }
-      ]
+      "product_id": "",
+      "variant_id": null
     },
     "M": {
-      "sku": "",
-      "attributes": {},
-      "assets": [
-        {
-          "printArea": "front",
-          "url": ""
-        }
-      ]
+      "product_id": "",
+      "variant_id": null
     },
     "L": {
-      "sku": "",
-      "attributes": {},
-      "assets": [
-        {
-          "printArea": "front",
-          "url": ""
-        }
-      ]
+      "product_id": "",
+      "variant_id": null
     },
     "XL": {
-      "sku": "",
-      "attributes": {},
-      "assets": [
-        {
-          "printArea": "front",
-          "url": ""
-        }
-      ]
+      "product_id": "",
+      "variant_id": null
     },
     "2XL": {
-      "sku": "",
-      "attributes": {},
-      "assets": [
-        {
-          "printArea": "front",
-          "url": ""
-        }
-      ]
+      "product_id": "",
+      "variant_id": null
     },
     "3XL": {
-      "sku": "",
-      "attributes": {},
-      "assets": [
-        {
-          "printArea": "front",
-          "url": ""
-        }
-      ]
+      "product_id": "",
+      "variant_id": null
     }
   },
   "inner-circle": {
     "S": {
-      "sku": "",
-      "attributes": {},
-      "assets": [
-        {
-          "printArea": "front",
-          "url": ""
-        }
-      ]
+      "product_id": "",
+      "variant_id": null
     },
     "M": {
-      "sku": "",
-      "attributes": {},
-      "assets": [
-        {
-          "printArea": "front",
-          "url": ""
-        }
-      ]
+      "product_id": "",
+      "variant_id": null
     },
     "L": {
-      "sku": "",
-      "attributes": {},
-      "assets": [
-        {
-          "printArea": "front",
-          "url": ""
-        }
-      ]
+      "product_id": "",
+      "variant_id": null
     },
     "XL": {
-      "sku": "",
-      "attributes": {},
-      "assets": [
-        {
-          "printArea": "front",
-          "url": ""
-        }
-      ]
+      "product_id": "",
+      "variant_id": null
     },
     "2XL": {
-      "sku": "",
-      "attributes": {},
-      "assets": [
-        {
-          "printArea": "front",
-          "url": ""
-        }
-      ]
+      "product_id": "",
+      "variant_id": null
     },
     "3XL": {
-      "sku": "",
-      "attributes": {},
-      "assets": [
-        {
-          "printArea": "front",
-          "url": ""
-        }
-      ]
+      "product_id": "",
+      "variant_id": null
     }
   }
 }

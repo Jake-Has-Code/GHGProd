@@ -9,6 +9,6 @@ export async function POST(request:Request){try{
  const {items:raw}=JSON.parse(text);const items=validateCart(raw);const key=checkoutKey(request.headers.get('idempotency-key'),items);
  const session=await stripe('checkout/sessions',{method:'POST',body:stripeForm(items,config),key});
  if(!session.url||!session.id)throw new ShopError('Unable to open checkout.',502);
- const existing=await readOrder(session.id);if(!existing)await saveOrder({sessionId:session.id,state:'checkout_created',items,printItems:printItems(items,config),createdAt:new Date().toISOString()});
+ const existing=await readOrder(session.id);if(!existing)await saveOrder({sessionId:session.id,state:'checkout_created',provider:'printify',printifyShopId:config.shopId,items,printItems:printItems(items,config),createdAt:new Date().toISOString()});
  return Response.json({url:session.url},{headers:{'Cache-Control':'no-store'}});
  }catch(e){return Response.json({error:e instanceof ShopError?e.message:'Checkout could not be opened. Please try again.'},{status:e instanceof ShopError?e.status:400});}}
